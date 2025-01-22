@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Website</title>
+        <style>
+            p {
+                margin: 0;
+            }
+            
+            .img-css {
+                width: 100%;
+            }
+
+
+            .small-img-css {
+                width: 100%;
+                border-radius: 10px;
+            }
+
+            .small-img-div-grid {
+                background-color: aliceblue;
+                vertical-align: top;
+                width: 100px;
+            }
+
+            .small-img-desc-grid {
+                background-color: aliceblue;
+                vertical-align: top;
+            }
+        </style>
+        
+    </head>
+
+    <body>
+        <div style="
+        display: grid;
+        margin-top: 30px;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 10px;
+        ">
+            <div>
+                <div>
+                    <img class = "img-css", src = "resources/Screenshot-1.png">
+                </div>
+                <div style="
+                    display: grid;
+                    grid-template-columns: 100px 1fr;
+                ">
+                    <div>
+                        <img class = "small-img-css", src = "resources/Screenshot-1.png">
+                    </div>
+                    <div class="small-img-desc-grid">
+                        <p>
+                            This is Title
+                        </p>
+                        <p>
+                            This is the description for Screenshot-1
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+            <div>
+                <div>
+                    <img class = "img-css", src = "resources/Screenshot-2.png">
+                </div>
+                <div style="
+                    display: grid;
+                    grid-template-columns: 100px 1fr;
+                ">
+                    <div class="small-img-div-grid">
+                        <img class = "small-img-css", src = "resources/Screenshot-2.png">
+                    </div>
+                    <div class="small-img-desc-grid">
+                        <p>
+                            This is Title
+                        </p>
+                        <p>
+                            This is the description for Screenshot-2
+                        </p>
+                    </div>
+                
+                </div>
+                
+            </div>
+            <div>
+                <div>
+                    <img class = "img-css", src = "resources/Screenshot-3.png">
+                </div>
+                <div style="
+                    display: grid;
+                    grid-template-columns: 100px 1fr;
+                ">
+                    <div class="small-img-div-grid">
+                        <img class = "small-img-css", src = "resources/Screenshot-3.png">
+                    </div>
+                    <div class="small-img-desc-grid">
+                        <p>
+                            This is Title
+                        </p>
+                        <p>
+                            This is the description for Screenshot-3
+                        </p>
+                    </div>
+                
+                </div>
+                
+            </div>
+            <div>
+                <div>
+                    <img class = "img-css", src = "resources/Screenshot-4.png">
+                </div>
+                <div style="
+                    display: grid;
+                    grid-template-columns: 100px 1fr;
+                ">
+                    <div class="small-img-div-grid">
+                        <img class = "small-img-css", src = "resources/Screenshot-4.png">
+                    </div>
+                    <div class="small-img-desc-grid">
+                        <p>
+                            This is Title
+                        </p>
+                        <p>
+                            This is the description for Screenshot-4
+                        </p>
+                    </div>
+                
+                </div>
+                
+            </div>
+        </div>
+    </body>
+</html>

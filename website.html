@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Website</title>
+        <style>
+            p {
+                margin: 0;
+            }
+            
+            .img-css {
+                width: 100%;
+            }
+
+
+            .small-img-css {
+                width: 100%;
+                border-radius: 10px;
+            }
+
+            .small-img-div-grid {
+                background-color: aliceblue;
+                vertical-align: top;
+                width: 100px;
+            }
+
+            .small-img-desc-grid {
+                background-color: aliceblue;
+                vertical-align: top;
+            }
+        </style>
+        
+    </head>
+
+    <body>
+        <div style="
+            display: flex;
+            flex-direction: row;
+            height: 70px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: cadetblue;
+            justify-content: space-between;
+            align-items: center;
+            ">
+            <div style="
+                background-color: lightblue;
+                width: 200px;
+            ">
+                left
+            </div>
+            <div style="
+                background-color: rgb(184, 230, 173);
+                flex: 1;
+                margin-left: 70px;
+                margin-right: 30px;
+                max-width: 500px;
+            "> 
+                middle
+            </div>
+            <div style="
+                background-color: rgb(230, 176, 173);
+                width: 350px;
+            ">
+                right
+            </div>
+        </div>
+
+        <div style="
+        display: flex;
+        margin-top: 30px;
+        column-gap: 10px;
+        row-gap: 10px;
+        flex-direction: row;
+        ">
+            <div style="flex: 1;">
+                <div>
+                    <img class = "img-css", src = "resources/Screenshot-1.png">
+                </div>
+                <div style="
+                    display: grid;
+                    grid-template-columns: 100px 1fr;
+                ">
+                    <div>
+                        <img class = "small-img-css", src = "resources/Screenshot-1.png">
+                    </div>
+                    <div class="small-img-desc-grid">
+                        <p>
+                            This is Title
+                        </p>
+                        <p>
+                            This is the description for Screenshot-1
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+            <div style="flex: 1;">
+                <div>
+                    <img class = "img-css", src = "resources/Screenshot-2.png">
+                </div>
+                <div style="
+                    display: grid;
+                    grid-template-columns: 100px 1fr;
+                ">
+                    <div class="small-img-div-grid">
+                        <img class = "small-img-css", src = "resources/Screenshot-2.png">
+                    </div>
+                    <div class="small-img-desc-grid">
+                        <p>
+                            This is Title
+                        </p>
+                        <p>
+                            This is the description for Screenshot-2
+                        </p>
+                    </div>
+                
+                </div>
+                
+            </div>
+            <div style="flex: 1;">
+                <div>
+                    <img class = "img-css", src = "resources/Screenshot-3.png">
+                </div>
+                <div style="
+                    display: grid;
+                    grid-template-columns: 100px 1fr;
+                ">
+                    <div class="small-img-div-grid">
+                        <img class = "small-img-css", src = "resources/Screenshot-3.png">
+                    </div>
+                    <div class="small-img-desc-grid">
+                        <p>
+                            This is Title
+                        </p>
+                        <p>
+                            This is the description for Screenshot-3
+                        </p>
+                    </div>
+                
+                </div>
+                
+            </div>
+            <div style="flex: 1;">
+                <div>
+                    <img class = "img-css", src = "resources/Screenshot-4.png">
+                </div>
+                <div style="
+                    display: grid;
+                    grid-template-columns: 100px 1fr;
+                ">
+                    <div class="small-img-div-grid">
+                        <img class = "small-img-css", src = "resources/Screenshot-4.png">
+                    </div>
+                    <div class="small-img-desc-grid">
+                        <p>
+                            This is Title
+                        </p>
+                        <p>
+                            This is the description for Screenshot-4
+                        </p>
+                    </div>
+                
+                </div>
+                
+            </div>
+        </div>
+    </body>
+</html>
